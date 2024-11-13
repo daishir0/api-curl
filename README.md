@@ -72,6 +72,9 @@ Response Headers:
 - Monitor cache directory size
 - Consider rate limiting for production use
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ---
 
 # api-curl
@@ -147,9 +150,6 @@ curl -X POST \
 - 必要に応じてURLの許可/ブロックリストを確認してください
 - キャッシュディレクトリのサイズを監視してください
 - 本番環境ではレート制限の導入を検討してください
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## ライセンス
 このプロジェクトはMITライセンスの下でライセンスされています。詳細はLICENSEファイルを参照してください。
