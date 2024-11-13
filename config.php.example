@@ -1,0 +1,24 @@
+<?php
+/**
+ * Configuration for Web Content Fetcher
+ * 
+ * Copy this file to config.php and modify the values as needed.
+ */
+return [
+    // Debug mode (set to false in production)
+    'DEBUG' => false,
+    
+    // API Key (change this to a secure random string)
+    'API_KEY' => 'change_this_to_a_secure_random_string',
+    
+    // Cache settings
+    'CACHE_DIR' => __DIR__ . '/cache',
+    'CACHE_TIME' => 300, // 5 minutes
+    
+    // Logging
+    'LOG_FILE' => __DIR__ . '/debug.log',
+    
+    // CURL settings
+    'CURL_TIMEOUT' => 30,
+    'USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+];
